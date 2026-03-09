@@ -10,12 +10,14 @@ body {
     overflow-x: hidden;
 }
 
+
 header {
     background-color: #080b5369;
     width: 100%;
-    align-items: center; 
-    justify-content: center; 
     padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 header h1 p {
@@ -23,10 +25,6 @@ header h1 p {
     text-align: center;
 } 
 
-header p {
-    font-size: 1.1em;
-    opacity: 0.9;
-}
 
 main {
     max-width: 900px;
@@ -75,4 +73,8 @@ footer {
     background-color: #080b5369;
     color: #ecf0f1;
     font-size: 0.9em;
+}
+
+img {
+    width: 500px;
 }
