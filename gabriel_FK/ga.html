@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Lugar que quero conhecer</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/assets/style/style.css">
 </head>
 <body>
 
@@ -46,3 +46,70 @@
 
 </body>
 </html>
+
+@keyframes corLetra {
+    10% {
+        color: blue;
+    }
+
+    20% {
+        color: aqua;
+    }
+
+    30% {
+        color: lime
+    }
+
+    40% {
+        color: green;
+    }
+
+    50% {
+        color: darkgreen;
+    }
+
+    60% {
+        color: black;
+    }
+
+    70% {
+        color: gray;
+    }
+
+    80% {
+        color: cadetblue;
+    }
+
+    90% {
+        color: #3c72a9;
+    }
+
+    100% {
+        color: rgb(83, 83, 244);
+    }
+}
+
+@keyframes bordaAnimada {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+ background: linear-gradient(45deg, red, orange, yellow, lime, cyan, blue, magenta, red);
+    background-size: 400% 400%;
+    animation: bordaAnimada 15s linear infinite;
+
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: -1;
