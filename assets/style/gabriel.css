@@ -6,7 +6,7 @@ body {
     padding: 0;
     color: white;
     line-height: 1.6;
-    background-image: url('/assets/img/Lindo.jpg');
+    background-image: url('../img/Lindo.jpg');
     overflow-x: hidden;
     background-size: cover;
     background-position: center;
