@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.6;
+    background-image: url('/assets/img/Lindo.jpg');
+    overflow-x: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #080b5369;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+header h1 p {
+    color: white;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #080b5369;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+        margin: 2vh auto;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    z-index: 1;
+    overflow: hidden;
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-bottom: 1px solid #eee;
+    /* Separador sutil entre as seções */
+}
+
+section:last-of-type {
+    border-bottom: none;
+    /* Remove a linha da última seção */
+}
+
+
+@keyframes bordaAnimada {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    padding: 3px;
+    background: linear-gradient(45deg, red, orange, yellow, lime, cyan, blue, magenta, red);
+    background-size: 400% 400%;
+    animation: bordaAnimada 5s linear infinite;
+    
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    z-index: -1;
+}
+
+
+h2 {
+    color: white;
+    font-size: 1.8em;
+    margin-top: 0;
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: disc;
+    /* Marcadores de lista padrão */
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #080b5369;
+    color: #ecf0f1;
+    font-size: 0.9em;
+}
