@@ -13,7 +13,7 @@ body {
 
 
 header {
-    background-color: #280000;
+    background-color: rgba(40, 0, 0, 0.585);
     width: 100%;
     padding: 15px;
     text-align: center;
@@ -31,7 +31,7 @@ main {
     max-width: 900px;
     margin: 2em auto;
     padding: 1em;
-    background-color:  rgba(40, 0, 0, 0.8); 
+    background-color:  rgba(40, 0, 0, 0.585); 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
@@ -71,7 +71,7 @@ footer {
     text-align: center;
     padding: 15px;
     width: 100%;
-    background-color: #280000;
+    background-color: rgba(40, 0, 0, 0.585);
     color: #ecf0f1;
     font-size: 0.9em;
 }
