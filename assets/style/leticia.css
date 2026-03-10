@@ -6,7 +6,7 @@ body {
     padding: 0;
     color: white;
     line-height: 1.6;
-    background-image: url('/assets/img/atenas.jpg');
+    background-image: url('../img/atenas.jpg');
     overflow-x: hidden;
 }
 
