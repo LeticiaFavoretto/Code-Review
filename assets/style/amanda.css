@@ -6,13 +6,13 @@ body {
     padding: 0;
     color: white;
     line-height: 1.6;
-    background-image: url('../img/atenas.jpg');
+    background-image: url('../img/opera.png');
     overflow-x: hidden;
 }
 
 
 header {
-    background-color: #080b5369;
+    background-color: #54000882;
     width: 100%;
     padding: 15px;
     text-align: center;
@@ -30,7 +30,7 @@ main {
     max-width: 900px;
     margin: 2em auto;
     padding: 1em;
-    background-color: #080b5369; 
+    background-color: #54000882; 
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
@@ -70,7 +70,7 @@ footer {
     text-align: center;
     padding: 15px;
     width: 100%;
-    background-color: #080b5369;
+    background-color: #54000882;
     color: #ecf0f1;
     font-size: 0.9em;
 }
