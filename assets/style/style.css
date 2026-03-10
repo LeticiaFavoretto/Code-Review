@@ -6,7 +6,9 @@ body {
     padding: 0;
     color: white;
     line-height: 1.6;
-    background-image: url('temple.jpg');
+    background-image: url('montains.webp');
+    background-size: 100% 100%;
+    image-resolution: 100%;
     overflow-x: hidden;
 }
 
@@ -40,7 +42,7 @@ main {
 section {
     margin-bottom: 2em;
     padding: 1.5em;
-    border-bottom: 1px solid #eee; /* Separador sutil entre as seções */
+    border-bottom: 1px solid #B57C34; /* Separador sutil entre as seções */
 }
 
 section:last-of-type {
