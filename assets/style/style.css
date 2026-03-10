@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 1.6;
+    background-image: url('/assets/img/atenas.jpg');
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #080b5369;
+    width: 100%;
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px;
+}
+
+header h1 p {
+    color: white;
+    text-align: center;
+} 
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #080b5369; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    border-bottom: 1px solid #eee; /* Separador sutil entre as seções */
+}
+
+section:last-of-type {
+    border-bottom: none; /* Remove a linha da última seção */
+}
+
+h2 {
+    color: white; 
+    font-size: 1.8em;
+    margin-top: 0;
+    padding-left: 10px;
+    margin-bottom: 1em;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: disc; /* Marcadores de lista padrão */
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #080b5369;
+    color: #ecf0f1;
+    font-size: 0.9em;
+}
