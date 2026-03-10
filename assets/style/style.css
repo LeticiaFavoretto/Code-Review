@@ -1,78 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-body {
-    font-family: 'Poppins';
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    background: black;
+    color: #f2dea9;
+    text-shadow: 0 0 45px #f2dfa972;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.menu a {
     color: white;
-    line-height: 1.6;
-    background-image: url('/assets/img/atenas.jpg');
-    overflow-x: hidden;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
 }
 
-header {
-    background-color: #080b5369;
-    width: 100%;
-    align-items: center; 
-    justify-content: center; 
-    padding: 15px;
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 60px;
 }
 
-header h1 p {
+.texto {
+    max-width: 500px;
+}
+
+.texto h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.texto p {
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.botao {
+    padding: 10px 25px;
+    border: none;
+    background: #463507;
     color: white;
-    text-align: center;
-} 
-
-header p {
-    font-size: 1.1em;
-    opacity: 0.9;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
-main {
-    max-width: 900px;
-    margin: 2em auto;
-    padding: 1em;
-    background-color: #080b5369; 
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+.globo{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1100px;
 }
 
-section {
-    margin-bottom: 2em;
-    padding: 1.5em;
-    border-bottom: 1px solid #eee; /* Separador sutil entre as seções */
-}
-
-section:last-of-type {
-    border-bottom: none; /* Remove a linha da última seção */
-}
-
-h2 {
-    color: white; 
-    font-size: 1.8em;
-    margin-top: 0;
-    padding-left: 10px;
-    margin-bottom: 1em;
-}
-
-p {
-    margin-bottom: 1em;
-}
-
-ul {
-    list-style-type: disc; /* Marcadores de lista padrão */
-    padding-left: 25px;
-}
-
-li {
-    margin-bottom: 0.5em;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
+.globo img{
     width: 100%;
-    background-color: #53081869;
-    color: #ecf0f1;
-    font-size: 0.9em;
 }
